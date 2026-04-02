@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#262ac5"/>
+      <stop offset="50%" stop-color="#3818d9"/>
+      <stop offset="100%" stop-color="#009afc"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e9c4"/>
+      <stop offset="100%" stop-color="#009afc"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M212.0,91.8 L231.3,47.5 L280.7,47.5 L300.0,91.8 L338.9,63.1 L381.6,87.7 L376.2,135.8 L424.3,130.4 L448.9,173.1 L420.2,212.0 L464.5,231.3 L464.5,280.7 L420.2,300.0 L448.9,338.9 L424.3,381.6 L376.2,376.2 L381.6,424.3 L338.9,448.9 L300.0,420.2 L280.7,464.5 L231.3,464.5 L212.0,420.2 L173.1,448.9 L130.4,424.3 L135.8,376.2 L87.7,381.6 L63.1,338.9 L91.8,300.0 L47.5,280.7 L47.5,231.3 L91.8,212.0 L63.1,173.1 L87.7,130.4 L135.8,135.8 L130.4,87.7 L173.1,63.1 Z" fill="url(#gearGrad)" opacity="0.92"/>
+  <circle cx="256" cy="256" r="120" fill="#0a0e27"/>
+  <circle cx="256" cy="256" r="112" fill="none" stroke="url(#gearGrad)" stroke-width="2.5" opacity="0.35"/>
+  <text x="256" y="276" text-anchor="middle" font-family="'SF Mono','Fira Code','Consolas','Courier New',monospace" font-size="100" font-weight="700" fill="url(#codeGrad)" filter="url(#glow)">&gt;_</text>
+</svg>
